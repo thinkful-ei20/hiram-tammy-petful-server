@@ -1,10 +1,12 @@
 # Petful
-This is the serverside to the Petful app, where the cat
+This is the serverside to the Petful app, where cats and dogs queue for homes.
 
 We are live at [Petful](https://hiram-tammy-petful-client.github.io).
 
 
 ## Using the Queue Class
+Using the a Queue as our data structure ensures that the pet that has been waiting to be adopted longest will be the one to be adopted.
+
 ```class Queue {
     constructor(){
       this.first = null;
@@ -33,6 +35,7 @@ The ```Queue``` class also holds three methods, ``` peak() Dequeue() and Enqueue
 
 ### GET:
 ```router.get(hiram-tammy-petful-server.herokuapp.com/api/cats, (req, res)```
+
 The ```GET``` request calls the ```peak()``` method on the ```Queue``` class, returning the value of the first node. The data returned will look like this:
 
 ```
@@ -50,14 +53,16 @@ The ```GET``` request calls the ```peak()``` method on the ```Queue``` class, re
 
 ### DELETE:
 ```router.delete(hiram-tammy-petful-server.herokuapp.com/api/cats, (req, res)```
+
 The ```DELETE``` request calls the ```dequeue()``` method on the ```Queue``` class. 
 
 
 ## The server is created with:
 - [Node.js](https://nodejs.org/en/)
 - [Express](http://expressjs.com/)
-- [MongoDB](https://docs.mongodb.com/) *Database will be added*
--[Heroku](https://heroku.com)
+- [MongoDB](https://docs.mongodb.com/) 
+*Database will be added*
+- [Heroku](https://heroku.com)
 
 ## Question and comments?
 
