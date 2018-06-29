@@ -1,5 +1,5 @@
 # Petful
-This is the serverside to the Petful app, where cats and dogs queue for homes.
+This is the server side to the Petful app, where cats and dogs queue for homes. Click [Here](https://github.com/thinkful-ei20/hiram-tammy-petful-client) for our client.
 
 We are live at [Petful](https://hiram-tammy-petful-client.github.io).
 
