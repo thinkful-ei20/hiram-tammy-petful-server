@@ -9,82 +9,46 @@
     "story": "Thrown on the street"
   },
   {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
-    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
+    "imageURL":"https://images.pexels.com/photos/617278/pexels-photo-617278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
+    "imageDescription": "Stripped princess with emerald eyes",
     "name": "Goldmound",
-    "sex": "Male",
-    "age": 9,
-    "breed": "Bengal",
-    "story": "Thrown on the street"
+    "sex": "Female",
+    "age": 2,
+    "breed": "Tabby",
+    "story": "Chased the diamonds"
   },
   {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
-    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
+    "imageURL":"https://images.pexels.com/photos/127027/pexels-photo-127027.jpeg?cs=srgb&dl=adorable-animal-basket-127027.jpg&fm=jpg", 
+    "imageDescription": "White coat with black ears and sky blue eyes.",
     "name": "Hesse",
     "sex": "Male",
     "age": 7,
-    "breed": "Bengal",
-    "story": "Thrown on the street"
+    "breed": "unknown",
+    "story": "Left in a basket"
   },
   {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
+    "imageURL":"https://images.pexels.com/photos/171227/pexels-photo-171227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
     "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
     "name": "Isner",
     "sex": "Male",
     "age": 3,
-    "breed": "Bengal",
-    "story": "Thrown on the street"
+    "breed": "Chubby",
+    "story": "Found in front of a the nearby store"
   },
   {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
-    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
+    "imageURL":"https://images.pexels.com/photos/236660/pexels-photo-236660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940", 
+    "imageDescription": "Sandy coat with pale green eyes.",
     "name": "Joni",
     "sex": "Male",
     "age": 2,
     "breed": "Bengal",
-    "story": "Thrown on the street"
+    "story": "Found digging in a tapestry shop"
   },
   {
     "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
     "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
     "name": "Fluffy",
     "sex": "Female",
-    "age": 2,
-    "breed": "Bengal",
-    "story": "Thrown on the street"
-  },
-  {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
-    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
-    "name": "Goldmound",
-    "sex": "Male",
-    "age": 9,
-    "breed": "Bengal",
-    "story": "Thrown on the street"
-  },
-  {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
-    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
-    "name": "Hesse",
-    "sex": "Male",
-    "age": 7,
-    "breed": "Bengal",
-    "story": "Thrown on the street"
-  },
-  {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
-    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
-    "name": "Isner",
-    "sex": "Male",
-    "age": 3,
-    "breed": "Bengal",
-    "story": "Thrown on the street"
-  },
-  {
-    "imageURL":"https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg", 
-    "imageDescription": "Orange bengal cat with black stripes lounging on concrete.",
-    "name": "Joni",
-    "sex": "Male",
     "age": 2,
     "breed": "Bengal",
     "story": "Thrown on the street"

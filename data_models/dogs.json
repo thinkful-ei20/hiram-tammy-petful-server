@@ -2,73 +2,46 @@
   {
     "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
     "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
-    "name": "Zeus1",
+    "name": "Zeus",
     "sex": "Male",
     "age": 3,
     "breed": "Beagle",
     "story": "Owner Passed away"
   },
   {
-    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
-    "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
+    "imageURL": "https://images.pexels.com/photos/732456/pexels-photo-732456.jpeg?cs=srgb&dl=adorable-animal-breed-732456.jpg&fm=jpg",
+    "imageDescription": "A petite girl with a love for pink.",
+    "name": "Daisy",
+    "sex": "Female",
+    "age": 4,
+    "breed": "Pomerianian",
+    "story": "Wanted a taste of the world on her own"
+  },
+  {
+    "imageURL": "https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?cs=srgb&dl=adorable-animal-breed-356378.jpg&fm=jpg",
+    "imageDescription": "Cream colored and energetic puppy.",
     "name": "Steppenwolf",
     "sex": "Male",
-    "age": 3,
-    "breed": "Beagle",
-    "story": "Owner Passed away"
+    "age": 10,
+    "breed": "Lapphund",
+    "story": "Left home to chase the wind"
   },
   {
-    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
-    "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
+    "imageURL": "https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg?cs=srgb&dl=animal-black-blue-169524.jpg&fm=jpg",
+    "imageDescription": "A dark brown haired puppy waiting for a home.",
     "name": "Narcussius",
     "sex": "Male",
-    "age": 3,
+    "age": 2,
     "breed": "Beagle",
-    "story": "Owner Passed away"
+    "story": "Kicked out of the couch"
   },
   {
-    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
-    "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
+    "imageURL": "https://images.pexels.com/photos/58997/pexels-photo-58997.jpeg?cs=srgb&dl=animal-corgi-dog-58997.jpg&fm=jpg",
+    "imageDescription": "A corgi with two colored eyes.",
     "name": "Wolf",
-    "sex": "Male",
+    "sex": "Female",
     "age": 3,
-    "breed": "Beagle",
-    "story": "Owner Passed away"
-  },
-  {
-    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
-    "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
-    "name": "Zeus1",
-    "sex": "Male",
-    "age": 3,
-    "breed": "Beagle",
-    "story": "Owner Passed away"
-  },
-  {
-    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
-    "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
-    "name": "Steppenwolf",
-    "sex": "Male",
-    "age": 3,
-    "breed": "Beagle",
-    "story": "Owner Passed away"
-  },
-  {
-    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
-    "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
-    "name": "Narcussius",
-    "sex": "Male",
-    "age": 3,
-    "breed": "Beagle",
-    "story": "Owner Passed away"
-  },
-  {
-    "imageURL": "http://www.dogster.com/wp-content/uploads/2015/05/Cute%20dog%20listening%20to%20music%201_1.jpg",
-    "imageDescription": "A smiling golden-brown golden retreiver listening to music.",
-    "name": "Wolf",
-    "sex": "Male",
-    "age": 3,
-    "breed": "Beagle",
-    "story": "Owner Passed away"
+    "breed": "Corgi",
+    "story": "Forgot his way home"
   }
 ]
