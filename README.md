@@ -55,7 +55,7 @@ The ```GET``` request calls the ```peak()``` method on the ```Queue``` class, re
 
 ### DELETE:
 ```router.delete``` 
-```hiram-tammy-petful-server.herokuapp.com/api/cats...```
+```hiram-tammy-petful-server.herokuapp.com/api/cats```
 
 The ```DELETE``` request calls the ```dequeue()``` method on the ```Queue``` class. 
 
