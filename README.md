@@ -35,14 +35,14 @@ The ```Queue``` class also holds three methods, ``` peak()``` ```Dequeue()``` an
 
 
 ### GET:
-```router.get```
+```GET```
 ```hiram-tammy-petful-server.herokuapp.com/api/cats```
 
 The ```GET``` request calls the ```peak()``` method on the ```Queue``` class, returning the value of the first node. The data returned will look like this:
 
 ```
   {
-      imageURL: first.imageURL,
+    imageURL: first.imageURL,
     imageDescription: first.imageDescription,
     name: first.name,
     sex: first.sex,
@@ -54,10 +54,10 @@ The ```GET``` request calls the ```peak()``` method on the ```Queue``` class, re
 ```
 
 ### DELETE:
-```router.delete``` 
+```DELETE``` 
 ```hiram-tammy-petful-server.herokuapp.com/api/cats```
 
-The ```DELETE``` request calls the ```dequeue()``` method on the ```Queue``` class. 
+The ```DELETE``` request calls the ```dequeue()``` method on the ```Queue``` class. It returs a ```status 204``` on success. 
 
 
 ## The server is created with:
