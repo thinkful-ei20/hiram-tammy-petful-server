@@ -41,7 +41,7 @@ The ```Queue``` class also holds three methods, ``` peak()``` ```Dequeue()``` an
 The ```GET``` request calls the ```peak()``` method on the ```Queue``` class, returning the value of the first node. The data returned will look like this:
 
 ```
-    {
+  {
       imageURL: first.imageURL,
     imageDescription: first.imageDescription,
     name: first.name,
