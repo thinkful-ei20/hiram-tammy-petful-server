@@ -9,16 +9,20 @@ router.get('/dog', (req, res)=>{
   let first = dogs.peak();
   //console.log(firstCat);
   let result = {
-    imageURL: first.value.imageURL,
-    imageDescription: first.value.imageDescription,
-    name: first.value.name,
-    sex: first.value.sex,
-    age: first.value.age,
-    breed: first.value.breed,
-    story: first.value.story
+    imageURL: first.imageURL,
+    imageDescription: first.imageDescription,
+    name: first.name,
+    sex: first.sex,
+    age: first.age,
+    breed: first.breed,
+    story: first.story
   };
   //console.log(result);
   return res.json(result).status(200);
 });
 
+router.delete('/dog', (req, res) => {
+  dogs.dequeue();
+  res.status(204).end();
+});
 module.exports = router;
