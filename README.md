@@ -7,7 +7,8 @@ We are live at [Petful](https://hiram-tammy-petful-client.github.io).
 ## Using the Queue Class
 Using the a Queue as our data structure ensures that the pet that has been waiting to be adopted longest will be the one to be adopted.
 
-```class Queue {
+```
+  class Queue {
     constructor(){
       this.first = null;
       this.last = null;
