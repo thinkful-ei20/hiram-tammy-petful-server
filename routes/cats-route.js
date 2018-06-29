@@ -11,16 +11,21 @@ router.get('/cat', (req, res)=>{
   let first = cats.peak();
   //console.log(first);
   let result = {
-    imageURL: first.value.imageURL,
-    imageDescription: first.value.imageDescription,
-    name: first.value.name,
-    sex: first.value.sex,
-    age: first.value.age,
-    breed: first.value.breed,
-    story: first.value.story
+    imageURL: first.imageURL,
+    imageDescription: first.imageDescription,
+    name: first.name,
+    sex: first.sex,
+    age: first.age,
+    breed: first.breed,
+    story: first.story
   };
   //console.log(result);
   return res.json(result).status(200);
+});
+
+router.delete('/cat', (req, res) => {
+  cats.dequeue();
+  res.status(204).end();
 });
 
 module.exports = router;

@@ -45,7 +45,7 @@ class Queue {
   }
 
   peak(){
-    return this.first;
+    return this.first.value;
   }
 }
 
