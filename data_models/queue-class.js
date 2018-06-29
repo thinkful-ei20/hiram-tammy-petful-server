@@ -43,6 +43,10 @@ class Queue {
     
     this.last = node;
   }
+
+  peak(){
+    return this.first;
+  }
 }
 
 module.exports = Queue;
