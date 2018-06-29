@@ -3,6 +3,7 @@
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
+const catRouter = require('./routes/cats-route');
 
 const { PORT, CLIENT_ORIGIN } = require('./config');
 const { dbConnect } = require('./db-mongoose');
@@ -22,15 +23,16 @@ app.use(
   })
 );
 
-app.get('/api/cat', (req, res)=>{
-  return res.json(cats[0]);
-});
+app.use('/api', catRouter);
+// app.get('/api/cat', (req, res)=>{
+//   return res.json(cats[0]);
+// });
 
-app.delete('/api/cat', (req, res)=>{
-  let removed = cats.shift();
-  console.log(removed);
-  return res.json(removed).status(204);
-});
+// app.delete('/api/cat', (req, res)=>{
+//   let removed = cats.shift();
+//   console.log(removed);
+//   return res.json(removed).status(204);
+// });
 
 app.get('/api/dog', (req, res)=>{
   return res.json(dogs[0]);
