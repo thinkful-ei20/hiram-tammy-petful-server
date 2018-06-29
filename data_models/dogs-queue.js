@@ -1,13 +1,13 @@
 'use strict';
 
 const Queue = require('./queue-class');
-const data = require('./dogs');
 
 let dogs = new Queue();
+const data = require('./dogs');
 
-const initaite = (data) => {
-  data.forEach(dog => dogs.enqueue(dog));
-  //console.log(dogs);
-};
+data.forEach(dog => dogs.enqueue(dog));
 
-initaite (data);
+
+//console.log('this is the first dog',dogs.peak());
+
+module.exports = dogs;

@@ -8,16 +8,16 @@ const cats = require('../data_models/cats-queue');
 
 
 router.get('/cat', (req, res)=>{
-  let topCat = cats.peak();
-  //console.log(topCat);
+  let first = cats.peak();
+  //console.log(first);
   let result = {
-    imageURL: topCat.value.imageURL,
-    imageDescription: topCat.value.imageDescription,
-    name: topCat.value.name,
-    sex: topCat.value.sex,
-    age: topCat.value.age,
-    breed: topCat.value.breed,
-    story: topCat.value.story
+    imageURL: first.value.imageURL,
+    imageDescription: first.value.imageDescription,
+    name: first.value.name,
+    sex: first.value.sex,
+    age: first.value.age,
+    breed: first.value.breed,
+    story: first.value.story
   };
   //console.log(result);
   return res.json(result).status(200);
